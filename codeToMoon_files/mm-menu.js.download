@@ -1,0 +1,25 @@
+const youtube = document.getElementById('youtube');
+const clone = document.getElementById('clone');
+const profile = document.getElementById('profile');
+const twitter = document.getElementById('twitter');
+const fathom = document.getElementById('fathom');
+const templates = document.getElementById('templates');
+
+if (youtube){
+  youtube.addEventListener('click', () => window.fathom.trackGoal('NUZKAJML', 0));
+}
+if (clone){
+  clone.addEventListener('click', () => window.fathom.trackGoal('J09LBUMG', 0));
+}
+if (profile){
+  profile.addEventListener('click', () => window.fathom.trackGoal('J66X1ZEH', 0));
+}
+if (twitter){
+  twitter.addEventListener('click', () => window.fathom.trackGoal('DO3IPQO4', 0));
+}
+if (fathom){
+  fathom.addEventListener('click', () => window.fathom.trackGoal('8QRFZSHU', 0));
+}
+if (templates){
+  templates.addEventListener('click', () => window.fathom.trackGoal('NW1ZIDMU', 0));
+}
