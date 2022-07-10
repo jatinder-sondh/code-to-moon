@@ -1,4 +1,4 @@
-/* Generated on: Sat Jul 09 2022 09:41:48 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Jul 10 2022 06:10:37 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -287,7 +287,6 @@ html[data-w-dynpage] [data-w-cloak] {
 .w-webflow-badge {
   display: none;
 }
-
 h1,
 h2,
 h3,
@@ -1861,7 +1860,7 @@ textarea.w-select {
    Start of custom Webflow CSS
    ========================================================================== */
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: Inter, sans-serif;
   color: #000;
   font-size: 100%;
   line-height: 100%;
@@ -1923,6 +1922,7 @@ img {
 }
 
 .footer.right {
+  padding: 24px;
   border-top: 1px solid #313131;
   background-color: #000;
 }
@@ -1940,7 +1940,6 @@ img {
   position: absolute;
   left: 0px;
   top: 0px;
-  display: block;
   width: 100%;
   height: 100vh;
 }
@@ -1979,7 +1978,6 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: auto;
   margin-left: 0px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -2054,6 +2052,33 @@ img {
   color: #dadada;
 }
 
+.logo {
+  width: 120px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+.div-block-2 {
+  margin-left: auto;
+  background-color: #000;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 html.w-mod-js *[data-ix="sub-heading"] {
   opacity: 0;
   -webkit-transform: translate(0px, 50px);
@@ -2107,4 +2132,70 @@ html.w-mod-js *[data-ix="scroll-in"] {
     -ms-flex-pack: center;
     justify-content: center;
   }
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad9e45b2d52e4a64972_Inter-Bold.ttf")
+      format("truetype"),
+    url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad9e7bc3cc051753230_Inter-ExtraBold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad9a33caa5076a8815e_Inter-Black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad9903d3445240f9da1_Inter-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad9903d345e970f9db9_Inter-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad937b2814ba8bbeafc_Inter-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad965c529e698d68c2d_Inter-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad9e7bc3c3569753231_Inter-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("https://uploads-ssl.webflow.com/62c9410d707bc511741c98b6/62ca6ad9e691b218aa6c503e_Inter-Thin.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
